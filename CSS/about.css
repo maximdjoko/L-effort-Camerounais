@@ -385,7 +385,7 @@ ul li {
     max-width: 700px;
     height: 500px;
     background-color: #fff;
-    border: 2px solid #5c0a0a;
+    border: 5px solid #5c0a0a;
     border-radius: 5px;
     overflow-y: scroll;
     padding: 15px 10px;
