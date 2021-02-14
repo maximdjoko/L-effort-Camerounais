@@ -419,6 +419,7 @@ ul li {
 }
 
 .popup button {
+    position: relative;
     max-width: 30px;
     height: 30px;
     position: sticky;
