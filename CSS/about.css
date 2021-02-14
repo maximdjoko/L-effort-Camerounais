@@ -393,6 +393,7 @@ ul li {
     width: 80%;
     margin-top: 50px;
     display: none;
+    transition: 0.5s;
 }
 
 .popup p {
@@ -416,6 +417,7 @@ ul li {
     display: block;
     padding: 20px;
     list-style: block;
+    transition: 0.5s;
 }
 
 .popup button {
@@ -430,6 +432,9 @@ ul li {
     top: 5px;
     right: 5px;
     cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.5s;
 }
 
 .popup button:hover {
