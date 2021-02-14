@@ -425,10 +425,10 @@ ul li {
 }
 
 .popup button {
+    position: fixed;
     max-width: 30px;
     transition: 0.5s;
     height: 30px;
-    position: fixed;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -439,6 +439,8 @@ ul li {
     outline: none;
     border: none;
     transition: 0.5s;
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .popup button:hover {
