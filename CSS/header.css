@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+
+/* --------------------------------------- STYLING DU HEADER -----------------------------------------*/
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+}
+
+.header_items {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+
+#imgLogo {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    /* background: rgb(248, 56, 56); */
+    cursor: pointer;
+}
+
+.search_box button {
+    width: 50px;
+    /* margin: 5px; */
+    background: rgb(248, 56, 56);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+input[type='text'] {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#li {
+    display: flex;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #011;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1.2em;
+    border: 1px solid rgb(8, 8, 8);
+    transition: .2s;
+}
+
+#one,
+#two {
+    transition: .2s;
+}
+
+#one:hover a {
+    background: rgb(46, 42, 42);
+    color: rgb(255, 255, 255);
+}
+
+#one:hover {
+    color: rgb(255, 255, 255);
+}
+
+#two:hover a {
+    background: rgb(44, 41, 41);
+    color: rgb(255, 255, 255);
+}
+
+#two:hover {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(49, 49, 49);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* ----------------------FIN DU STYLING DU HEADER*/
+
+
+/*-------------------------------------------- LA BAR DE NAVIGATION---------------------------------- */
+
+nav {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background: rgb(233, 12, 12);
+    display: flex;
+    text-align: center;
+}
+
+.nav_items {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav_items li a {
+    color: #fff;
+    margin: 3px;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    transition: .5s ease;
+}
+
+.nav_items .nav li .active {
+    background: #fff;
+    color: red;
+}
+
+.nav li :hover {
+    background: rgb(255, 255, 255);
+    color: red;
+}
+
+
+/*--------------------------------------- hamburger nav bar------------------------------- */
+
+.nav_hamburger {
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 10;
+    border-bottom: 1px solid black;
+    background: white;
+}
+
+.nav_hamburger ul {
+    padding: 10px;
+    display: block;
+}
+
+.nav_hamburger ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav_hamburger ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 7px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.nav_hamburger ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.nav_items .font_icons {
+    display: none;
+}
+
+.nav_hamburger .cross {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_hamburger .fas {
+    width: fit-content;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: red;
+    right: 0
+}
+
+
+/* responssiv header */
+
+@media screen and (max-width:815px) {
+    .nav_items .nav,
+    .header_items .buttons .connect {
+        display: none;
+        margin: 0;
+        /* border: 1px solid blue; */
+        height: fit-content;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+    .header_items .buttons .search_box {
+        width: 75%;
+    }
+    .header_items {
+        /* display: block; */
+        margin: 0 auto;
+        width: 100%;
+    }
+    .buttons {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content; */
+    }
+    .nav_items .font_icons {
+        display: block;
+    }
+    .nav_items .font_icons .fas {
+        font-size: 1.5em;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        cursor: pointer;
+        width: fit-content;
+    }
+    .nav_items {
+        width: 100%;
+        /* position: relative;   */
+        padding: 0;
+        /* height: fit-content; */
+    }
+    .nav_hamburger .cross {
+        padding: 10px;
+        width: 100%;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: flex-end;
+        /* position: absolute; */
+    }
+    .nav_hamburger .fas {
+        width: fit-content;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: red;
+        right: 0;
+        /* position: absolute; */
+    }
+    .nav_hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .header_items {
+        display: block;
+    }
+    .ilogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_items #li {
+        display: none;
+    }
+}

@@ -1,0 +1,103 @@
+/* --------------------footer styling------------- */
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 20em;
+    background: rgb(255, 255, 255);
+    background: #000;
+}
+
+#main {
+    border-bottom: 2px solid rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    background: #000;
+}
+
+#main #ilogo {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.elements {
+    width: 80%;
+    display: flex;
+    background: #000;
+}
+
+.elements>div {
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+}
+
+.elements>div ul {
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+}
+
+#midd {
+    margin-top: 50px;
+    font-size: 14px;
+    text-decoration: overline;
+}
+
+#date,
+.copy,
+#date span,
+p.phone,
+#copy {
+    background: #000;
+    color: white;
+}
+
+@media screen and (max-width:885px) {
+    footer {
+        text-align: center;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    }
+    #main {
+        border-bottom: 2px solid rgb(2, 2, 2);
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    #main #ilogo {
+        width: 100%;
+        display: block;
+    }
+    footer #imgLogo {
+        width: 100%;
+        margin: 0;
+    }
+    .elements {
+        width: 100%;
+        display: block;
+    }
+    .elements>div {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .elements>div ul {
+        display: block;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #midd {
+        margin-top: 50px;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,285 @@
+@media screen and (max-width: 991px) {
+    .section1,
+    .main_service {
+        margin: 50px auto;
+        /* float: none; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #grand_div {
+        display: block !important;
+        /* margin-bottom: 200px;   */
+    }
+    .block_image {
+        left: 0;
+        padding: 10px;
+        /* margin-right: 200px; */
+        width: 100%;
+    }
+    .paragraphe {
+        width: 90%;
+    }
+    .section1 {
+        min-height: 165vh;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .child1,
+    .child2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .service_area .grande-div {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .hdiv .h1,
+    .h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:785px) {
+    .header_items .ilogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 5px auto; */
+        width: 100%;
+    }
+    .header_items img {
+        width: 100%;
+    }
+    #imgLogo {
+        padding: 2px;
+        margin-left: 0;
+    }
+    .nav_hamburger {
+        display: none;
+    }
+    #btns {
+        display: block;
+    }
+    .form input[type='reset'] {
+        padding: 2px;
+        font-size: 1.4em;
+        width: 100px;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .hdiv .h1,
+    .h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:785px) {
+    .subsection {
+        display: block;
+    }
+    .header_items {
+        display: block;
+        background: #fff;
+    }
+    .buttons {
+        display: block;
+        width: 100%;
+    }
+    .search_box {
+        display: flex;
+        width: 90%;
+        height: 40px;
+        margin: 10px auto;
+        border-radius: 3px;
+        background: rgb(248, 56, 56);
+    }
+    .search_box input[type='text'] {
+        width: 85%;
+        outline: none;
+        border: none;
+        padding: 10px;
+        font-size: 1.3em;
+    }
+    .search_box button {
+        width: 15%;
+        background: rgb(248, 56, 56);
+        outline: none;
+        border: none;
+    }
+    .buttons #li {
+        width: 345px;
+        display: none;
+        margin-top: 0px;
+        height: 40px;
+    }
+    .buttons a {
+        color: #011;
+        height: 33px;
+        padding: 3px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: none;
+        font-size: 1.3em;
+    }
+    #li>div {
+        width: 150px;
+        margin-top: 0px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #one,
+    #two {
+        transition: .1s;
+    }
+    #one {
+        margin-right: 40px;
+        color: rgb(1, 20, 192);
+        border: 1px solid rgb(0, 0, 0);
+    }
+    #one:hover {
+        background: rgb(0, 0, 0);
+    }
+    #two:hover {
+        background: rgb(0, 0, 0);
+    }
+    #two {
+        margin-left: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(1, 20, 192);
+    }
+}
+
+@media screen and (max-width:785px) {
+    .left {
+        width: 100%;
+    }
+    .Advertisement {
+        display: block;
+        width: 98%;
+        margine-righ: 20px;
+    }
+    .Advertisement .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+        height: 100%;
+    }
+    .Advertisement .Text {
+        width: 100%;
+    }
+    .comment {
+        width: 100%;
+    }
+    .comment .hdiv {
+        position: relative;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid rgb(3, 3, 3);
+    }
+    .hdiv .h1,
+    .h2 {
+        font-size: 1.2em;
+    }
+    .the_NEws {
+        display: block;
+        width: 100%;
+    }
+    .secone {
+        width: 100%;
+        display: block;
+    }
+    .sectwo {
+        width: 100%;
+        display: block;
+    }
+    .Image_news {
+        display: block;
+        width: 100%;
+        margin: 8px auto;
+        border
+    }
+    .image_title {
+        width: 100%;
+        height: 100%;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:785px) {
+    .right {
+        width: 100%;
+        margin: 20px 0;
+        border-top: none;
+        border-bottom: none;
+        box-shadow: 0 0 5px 1px #000;
+    }
+    .right .news_titles {
+        width: 100%;
+        padding: 4px;
+        margin: 5px auto;
+        border: 1px solid black;
+    }
+    .news_titles:nth-child(1) {
+        /* margin-top: 10px; */
+        border: none;
+    }
+}
+
+@media screen and (max-width:785px) {
+    .nav_items .nav,
+    .header_items .buttons .connect {
+        display: none;
+    }
+    .header_items .buttons {
+        display: block;
+    }
+    .nav_items .font_icons {
+        display: block;
+    }
+    .nav_items .font_icons .fas {
+        font-size: 1.5em;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        cursor: pointer;
+        width: fit-content;
+    }
+    .nav_items {
+        width: 100%;
+        /* position: relative;   */
+        padding: 0;
+        /* height: fit-content; */
+    }
+    .nav_hamburger .cross {
+        padding: 10px;
+        width: 100%;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: flex-end;
+        /* position: absolute; */
+    }
+    .nav_hamburger .fas {
+        width: fit-content;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: red;
+        right: 0;
+        /* position: absolute; */
+    }
+    .nav_hamburger {
+        display: none;
+    }
+}
