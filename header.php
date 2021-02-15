@@ -69,10 +69,10 @@
         <a href="#">accueil</a>
     </li>
     <li>
-        <a href="L'Effort Camerounais/Articles.html">articles</a>
+        <a href="Articles.php">articles</a>
     </li>
     <li>
-        <a href="./a propos de l'effort camerounais/About us.html">a propos</a>
+        <a href="About us.php">a propos</a>
     </li>
     <li>
         <a href="#lastft">se connecter</a>

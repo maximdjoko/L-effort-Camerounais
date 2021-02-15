@@ -22,6 +22,7 @@
     }
     .section1 {
         min-height: 165vh;
+        width: 100%;
     }
 }
 
@@ -30,11 +31,20 @@
     .child2 {
         display: block;
     }
+    .section1,
+    .main_service {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 580px) {
     .service_area .grande-div {
         display: block;
+    }
+    .section1 {
+        width: 100%;
     }
 }
 
@@ -51,6 +61,9 @@
         justify-content: center;
         align-items: center;
         /* margin: 5px auto; */
+        width: 100%;
+    }
+    .section1 {
         width: 100%;
     }
     .header_items img {
